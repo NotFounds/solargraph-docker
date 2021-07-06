@@ -2,7 +2,7 @@ NAME=solargraph
 VERSION=1.1
 
 build:
-		docker build -t $(NAME):$(VERSION) .
+	docker build -t $(NAME):$(VERSION) .
 
 restart: stop start
 
