@@ -31,7 +31,7 @@ $ make stop
 ### Requirements
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [vscode-solargraph](https://github.com/castwide/vscode-solargraph)
-- [Build image](#Build image)
+- [Build image](#build-image)
 
 ### Configuration for VSCode
 ```json
@@ -46,5 +46,5 @@ $ make stop
 ```
 
 ### Run solargraph server and Open Ruby project
-1. [Start container](#Start container)
+1. [Start container](#start-container)
 2. Open Ruby project
