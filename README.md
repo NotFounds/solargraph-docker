@@ -12,8 +12,6 @@ $ make build
 ```
 
 ### Start container
-CONTAINER ID   IMAGE            COMMAND                  CREATED         STATUS        PORTS                                       NAMES
-72aac5173c7f   solargraph:1.1   "/usr/local/bundle/b…"   3 seconds ago   Up 1 second   0.0.0.0:7658->7658/tcp, :::7658->7658/tcp   solargraph
 It runs an image with port 7658 and named "solargraph"
 ```sh
 $ make start
