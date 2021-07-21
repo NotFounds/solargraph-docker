@@ -1,5 +1,5 @@
 # solargraph-docker
-[![Docker](https://github.com/NotFounds/solargraph-docker/actions/workflows/docker-publish.yml/badge.svg?branch=main)](https://github.com/NotFounds/solargraph-docker/actions/workflows/docker-publish.yml)
+[![Docker](https://github.com/NotFounds/solargraph-docker/actions/workflows/docker-publish.yml/badge.svg?branch=main)](https://github.com/NotFounds/solargraph-docker/actions/workflows/docker-publish.yml)  
 A docker image for [solargraph](https://github.com/castwide/solargraph/).
 
 ## Requirements
