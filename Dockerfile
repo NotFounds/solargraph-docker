@@ -1,7 +1,7 @@
 ARG RUBY_VERSION=2.7
 FROM ruby:$RUBY_VERSION-alpine
 
-ARG SOLARGRAPH_VERSION=0.42.4
+ARG SOLARGRAPH_VERSION=0.43.0
 
 RUN apk --update add --no-cache --virtual .builddeps \
   gcc \
