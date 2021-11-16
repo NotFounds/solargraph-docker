@@ -6,6 +6,35 @@ A docker image for [solargraph](https://github.com/castwide/solargraph/).
 - docker
 
 ## How to use
+Pull and Run.
+```sh
+$ docker run ghcr.io/notfounds/solargraph-docker:latest
+```
+
+## Getting Started with VSCode
+### Requirements
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [vscode-solargraph](https://github.com/castwide/vscode-solargraph)
+- [Build image](#build-image)
+
+### Configuration for VSCode
+```json
+{
+  "solargraph.useBundler": false,
+  "solargraph.transport": "external",
+  "solargraph.externalServer": {
+    "host": "localhost",
+    "port": 7658
+  },
+}
+```
+
+### Run the solargraph server and Open Ruby project
+1. [Start container](#start-container)
+2. Open your ruby project
+
+
+## For development
 ### Build image
 It builds an image named "solargraph" and tag it with version.
 ```sh
@@ -27,25 +56,3 @@ It stops the container
 ```sh
 $ make stop
 ```
-
-## Getting Started with VSCode
-### Requirements
-- [Visual Studio Code](https://code.visualstudio.com/)
-- [vscode-solargraph](https://github.com/castwide/vscode-solargraph)
-- [Build image](#build-image)
-
-### Configuration for VSCode
-```json
-{
-  "solargraph.useBundler": false,
-  "solargraph.transport": "external",
-  "solargraph.externalServer": {
-    "host": "localhost",
-    "port": 7658
-  },
-}
-```
-
-### Run solargraph server and Open Ruby project
-1. [Start container](#start-container)
-2. Open Ruby project
