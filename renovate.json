@@ -6,5 +6,5 @@
   "stabilityDays": 7,
   "internalChecksFilter": "strict",
   "labels": ["dependencies"],
-  "reviewer": ["NotFounds"]
+  "reviewers": ["NotFounds"]
 }
