@@ -1,5 +1,5 @@
 NAME=solargraph
-VERSION=1.7
+VERSION=1.8
 
 build:
 	docker build -t $(NAME):$(VERSION) .
